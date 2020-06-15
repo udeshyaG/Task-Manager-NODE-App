@@ -4,11 +4,11 @@
   
 # These are the routes you can use 🥰
 
-  - Create a New User = POST /users
+  - Create a New User = `POST /users`
   
   - Create a new task for authenticated user = `POST /tasks`
   
-  - Get details of the authenticated user = GET `/users/me`
+  - Get details of the authenticated user = `GET /users/me`
   
   - Get all tasks of authenticated user = `GET /tasks`
   
