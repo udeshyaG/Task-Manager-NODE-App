@@ -11,6 +11,15 @@ require("./db/mongoose");
 //Middleware for parsing incoming JSON data
 app.use(express.json());
 
+//Simple message for base url
+app.get("/", (req, res) => {
+  res.json({
+    message: "Welcome to my NodeJS backend application",
+    info:
+      "Please visit my github repo to view information on how to use this app",
+  });
+});
+
 app.use(userRouter);
 app.use(taskRouter);
 
