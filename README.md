@@ -6,7 +6,7 @@
 
   - Create a New User = POST /users
   
-  - Create a new task for authenticated user = POST /tasks
+  - Create a new task for authenticated user = `POST /tasks`
   
   - Get details of the authenticated user = GET /users/me
   
