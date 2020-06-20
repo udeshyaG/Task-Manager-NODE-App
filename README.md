@@ -33,3 +33,11 @@
   - Delete a user's profile picture = `DELETE /users/me/avatar`
   
   - Fetch profile picture of User using ID = `GET /users/:id/avatar`
+
+# Technology Used 💻
+  - Node JS
+  - Mongo DB (No SQL database) 💾
+  - Heroku (for deployment)
+  - Json Web Token (for authentication) 🔑
+  - Send Grid API (for sending email) 📧
+  - Multer (npm package for uploading images)
